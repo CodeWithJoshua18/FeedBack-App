@@ -1,3 +1,5 @@
+<?php include 'database.php' ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,15 +25,15 @@
         <p>Leave a Feedback for us</p>
       <form action="">
         <label for="name">Name:</label>
-        <input type="text" placeholder="Enter your name" >
+        <input type="text" placeholder="Enter your name" name="name" >
       </form>
       <form action="">
         <label for="email">Email:</label>
-        <input type="email" placeholder="Enter your email" >
+        <input type="email" placeholder="Enter your email" name="email">
       </form>
       <form action="">
         <label for="feedback">FeedBack:</label>
-        <input type="text-area" placeholder="Enter your feedback" >
+        <input type="text-area" placeholder="Enter your feedback" name="body">
       </form>
       <form action="">
         <input type="submit" name="submit" >
